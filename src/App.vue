@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <h1>VUE markdown demo</h1>
+    <p>based on vue vue-resouse</p>
     <markDown/>
   </div>
 </template>
