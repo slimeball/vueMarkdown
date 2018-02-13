@@ -16,12 +16,8 @@ export default {
       markData: ""
     };
   },
-  mounted() {
-    this.sendData = "";
-    this.init(this.sendData);
-  },
   methods: {
-    init(data) {
+    ajaxRaw(data) {
       service.post(this.$http, data).then(
         res => {
           this.markData = res;
@@ -33,7 +29,7 @@ export default {
     },
     typeIn() {
       setTimeout(() => {
-        this.init(this.sendData);
+        this.ajaxRaw(this.sendData);
       }, 1000);
     }
   }
