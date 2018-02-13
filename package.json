@@ -4,6 +4,7 @@
   "description": "vue markdown demo",
   "author": "caesar",
   "email": "slimeball@foxmail.com",
+  "homepage": "https://slimeball.github.io/vueMarkdown/",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
