@@ -18,4 +18,11 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 使用技术
+
+* vue vue-resource sass
+
+
+## 过程
+
+* 阅读开发文档，搭建环境，功能开发及样式开发，解决跨域问题，发布。
